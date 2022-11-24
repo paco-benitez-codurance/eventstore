@@ -21,4 +21,12 @@ public class AccountCreated {
   public String getName() {
     return name;
   }
+
+  @Override
+  public String toString() {
+    return "AccountCreated{" +
+      "id=" + id +
+      ", name='" + name + '\'' +
+      '}';
+  }
 }
